@@ -198,12 +198,12 @@ ul, li {
   text-align:left;
 }
 /* modal contents */
-.imgContainer { 
+.imgContainer{ 
   height: auto; 
-  width: 150px;
- }​
+  width: 3000px;
+ }
 .modal-item img{
-  width: 100%;
+  width: 90%;
   height: auto;
 /* float:left; */
 padding:20 20 0 30px; 
