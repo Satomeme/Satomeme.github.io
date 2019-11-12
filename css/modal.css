@@ -12,6 +12,7 @@ ul, li {
 
 .container{
 	text-align:center;
+	
 }
 
 
@@ -19,6 +20,8 @@ ul, li {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	background: #ffe9c0c9;
+	  border-radius: 20px;
 }
 
 .arrows {
@@ -65,7 +68,7 @@ ul, li {
 .close {
 	position: absolute;
 	right: 5px;
-	top: 10px;
+	top: 1px;
 	cursor: pointer;
 }
 
@@ -143,25 +146,11 @@ ul, li {
 	box-sizing: border-box;
 }
 
-.load_0 {
-	background: #c0f8c2;
-}
+/* .load_0 {
+	background: #ffe9c0c9;
+	  border-radius: 20px;
 
-.load_1 {
-	background: #f8eac0;
-}
-
-.load_2 {
-	background: #cdffe8;
-}
-
-.load_3 {
-	background: #ffd2d4;
-}
-
-.load_4 {
-	background: #ffffff;
-}
+} */
 
 .box_load_cover {
 	width: 100%;
@@ -193,20 +182,33 @@ ul, li {
 	display:flex;
 }
 .modal-item p{
-	padding-top:20px;
-  font-size:12px;
-  text-align:left;
-}
+	padding-top:20%;
+	padding-right:10%;
+	padding-left: 5%;
+	font-size:12px;
+	text-align:left;
+	font-style: 丸ゴシック体;
+  }
 /* modal contents */
 .imgContainer{ 
-  height: auto; 
-  width: 3000px;
- }
+	height: auto; 
+	width: 70%;
+   }
 .modal-item img{
-  width: 90%;
+  width: 100%;
   height: auto;
 /* float:left; */
-padding:20 20 0 30px; 
-  border-radius: 20px;
+  padding:20 10 0 30px; 
+  border-radius: 10px;
 }
+.modal-right{
+	width: 30%;
+}
+.table_works{
+    margin: 10% 10 10 10;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+
 /* end of modal contents */
