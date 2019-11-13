@@ -42,7 +42,13 @@ li {
 }
 
 .box_load_inner {
-  display: block;
+  padding: 10px 30px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  color: coral;
+  font-size: 30;
+  font-weight: bold;
 }
 
 .arrow_rigth {

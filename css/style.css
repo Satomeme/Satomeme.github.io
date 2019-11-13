@@ -69,6 +69,11 @@ h1 {
   height: 300px;
   border-radius: 10px;
 }
+.About h2 {
+  padding-top: 20px;
+  /*    border-bottom: solid 3px #ffa5012e; */
+}
+
 .About-contanor p {
   /* width: 30%; */
   /* font-size:12px; */
