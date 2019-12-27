@@ -53,7 +53,8 @@ input[name="tab_item"] {
 .enpit-pic img{
   margin: 0 auto;
   /* margin-left: 10px; */
-  width: 230px;
+  /* width: 230px; */
+  height:160px;
 }
 
 
