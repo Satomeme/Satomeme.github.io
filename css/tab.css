@@ -2,7 +2,7 @@
 .tabs {
   margin-top: 50px;
   padding-bottom: 40px;
-  background-color: #fff;
+  /* background-color: rgb(255, 244, 225); */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   /* width: 700px; */
   width:100%;
@@ -13,8 +13,8 @@
 .tab_item {
   width: calc(100%/3);
   height: 50px;
-  border-bottom: 3px solid orange;
-  background-color: #d9d9d9;
+  border-bottom: 3px solid #dfcdc3;
+  background-color: #dfcdc3;
   line-height: 50px;
   font-size: 16px;
   text-align: center;
@@ -24,6 +24,7 @@
   text-align: center;
   font-weight: bold;
   transition: all 0.2s ease;
+  border-radius: 15px 15px 0px 0px;
 }
 .tab_item:hover {
   opacity: 0.75;
@@ -79,6 +80,28 @@ input[name="tab_item"] {
 
 /*選択されているタブのスタイルを変える*/
 .tabs input:checked + .tab_item {
-  background-color:orange;
+  background-color:#719192;
   color: #fff;
+}
+
+
+
+.Student-Life h2 {
+  position: relative;
+  padding: 0.6em;
+  background: #dfcdc3;
+  color:#3c4245;
+  font: bold;
+  font-family: "ヒラギノ丸ゴ ProN";
+}
+
+.Student-Life h2:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #dfcdc3;
+  width: 0;
+  height: 0;
 }
