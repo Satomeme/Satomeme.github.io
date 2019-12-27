@@ -30,7 +30,7 @@ h2 {
 
 .Top-left {
   /* アニメーション設定 */
-  /* animation-name: fade-in2;
+   animation-name: fade-in2;
   animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-delay: 1s;
@@ -48,7 +48,7 @@ h2 {
     transform: translate3d(0, 0, 0);
   }
 }
->>>>>>> bcd83df55e609b7768e8b1ca80d3b328b64baac2 */ */
+/* >>>>>>> bcd83df55e609b7768e8b1ca80d3b328b64baac2 */
 ul,
 li {
   list-style-type: none;
