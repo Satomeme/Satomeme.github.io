@@ -55,6 +55,7 @@ h1 {
 .Top-left {
   align-items: center;
   padding-top: 20%;
+  text-align: center;
 }
 
 .About {
@@ -133,4 +134,10 @@ footer {
   text-align: center;
   /* background-color: black; */
   color: orange;
+}
+@media screen and (max-width: 350px) {
+  /*ウィンドウ幅が767px以上の場合に適用*/
+  .Top {
+    background-color: #00ffff; /*青色*/
+  }
 }
