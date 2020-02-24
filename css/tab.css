@@ -93,6 +93,7 @@ input[name="tab_item"] {
   color:#3c4245;
   font: bold;
   font-family: "ヒラギノ丸ゴ ProN";
+  margin-bottom: 20px;
 }
 
 .Student-Life h2:after {
