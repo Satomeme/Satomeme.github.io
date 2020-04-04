@@ -128,10 +128,7 @@ padding:75px 55px 55px 55px;
 .contact-contener {
   background-color: #3c4245;
   display: flex;
-  justify-content: right;
-  width: 100%;
-  /* border-radius: 30px; */
- 
+  justify-content: center; 
 }
 .contact-item {
   padding: 20;
@@ -148,6 +145,6 @@ footer {
 @media screen and (max-width: 350px) {
   /*ウィンドウ幅が767px以上の場合に適用*/
   .Top {
-    background-color: #00ffff; /*青色*/
+    /* backgrounad-color: #00ffff; 青色 */
   }
 }
