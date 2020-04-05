@@ -65,10 +65,17 @@
       </div>
 
       <h2>Skills</h2>
-      <h3>Programming Language</h3>
-      <canvas id="prog-skill"></canvas>
-      <h3>Tools</h3>
-      <canvas id="design-skill"></canvas>
+      <div class="chart-cont">
+        <div class="chart-element">
+        <h3>Programming Language</h3>
+        <canvas id="prog-skill"></canvas>
+        </div>
+         <div class="chart-element">
+        <h3>Tools</h3>
+        <canvas id="design-skill"></canvas>
+        </div>
+      </div>
+
 
       <script>
         var ctx = document.getElementById('prog-skill').getContext('2d');
@@ -104,7 +111,7 @@
 
           // The data for our dataset
           data: {
-            labels: ['HTML/CSS', 'Adobe XD', 'Adobe Illustlator', 'Skech', 'Unity'],
+            labels: ['HTML/CSS', 'Adobe XD', 'Illustlator', 'Skech', 'Unity'],
             datasets: [{
               label: 'Skill Data',
               backgroundColor: ['rgb(247, 129, 84)',

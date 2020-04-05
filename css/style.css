@@ -78,7 +78,9 @@ padding:75px 55px 55px 55px;
 }
 .About h2 {
   padding-top: 20px;
-  /*    border-bottom: solid 3px #ffa5012e; */
+  text-align: center;
+  color: #719192;
+ padding-bottom: 20px;
 }
 
 
@@ -142,9 +144,21 @@ footer {
   color: white;
 }
 
+/* chart */
+.chart-cont{
+  display: flex;
+}
+
+.chart-element{
+  width: 100%;
+}
+.chart-element h3{
+ text-align: center;
+ font-size: 16px;
+ color: #7c818c;
+}
+
 @media screen and (max-width: 350px) {
   /*ウィンドウ幅が767px以上の場合に適用*/
-  .Top {
-    /* backgrounad-color: #00ffff; 青色 */
-  }
+ 
 }
