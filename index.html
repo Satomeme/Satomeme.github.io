@@ -22,6 +22,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <!-- chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </head>
 
 <body>
@@ -63,6 +65,64 @@
       </div>
 
       <h2>Skills</h2>
+      <h3>Programming Language</h3>
+      <canvas id="prog-skill"></canvas>
+      <h3>Tools</h3>
+      <canvas id="design-skill"></canvas>
+
+      <script>
+        var ctx = document.getElementById('prog-skill').getContext('2d');
+        var ctx2 = document.getElementById('design-skill').getContext('2d');
+        var chart = new Chart(ctx, {
+          // The type of chart we want to create
+          type: 'polarArea',
+
+          // The data for our dataset
+          data: {
+            labels: ['C', 'C++', 'JAVA', 'Javascript(Vue.js)', 'C#'],
+            datasets: [{
+              label: 'Skill Data',
+              backgroundColor: ['rgb(247, 129, 84)',
+                'rgb(348, 68, 93)',
+                'rgb(242, 193, 78)',
+                'rgb(77, 144, 120)',
+                'rgb(24, 119, 149)',
+                // 'rgb(99, 99, 255)',
+              ],
+              // borderColor: 'rgb(255, 99, 132)',
+              data: [4, 3, 3, 3, 2]
+
+            }]
+          },
+
+          // Configuration options go here
+          options: {}
+        });
+        var chart2 = new Chart(ctx2, {
+          // The type of chart we want to create
+          type: 'polarArea',
+
+          // The data for our dataset
+          data: {
+            labels: ['HTML/CSS', 'Adobe XD', 'Adobe Illustlator', 'Skech', 'Unity'],
+            datasets: [{
+              label: 'Skill Data',
+              backgroundColor: ['rgb(247, 129, 84)',
+                'rgb(348, 68, 93)',
+                'rgb(242, 193, 78)',
+                'rgb(77, 144, 120)',
+                'rgb(24, 119, 149)',
+                'rgb(37, 137, 189)',
+              ],
+              // borderColor: 'rgb(255, 99, 132)',
+              data: [4, 4, 3, 3, 3]
+
+            }]
+          },
+          // Configuration options go here
+          options: {}
+        });
+      </script>
 
     </div>
     <div class="Skill">
@@ -116,12 +176,14 @@
             <div class=works-item> <img src="./img/works/UI/health.png" alt="健康づくハッカソン"></div>
           </li>
           <li>
-            <div class=works-item> <img src="./img/works/graphics/internationaltalk-2.jpg" alt="internatinal talk 1"></div>
+            <div class=works-item> <img src="./img/works/graphics/internationaltalk-2.jpg" alt="internatinal talk 1">
+            </div>
           </li>
           <li>
-            <div class=works-item><img src="./img/works/graphics/internationaltalk3.jpg" alt="internatinal talk 2"></div>
+            <div class=works-item><img src="./img/works/graphics/internationaltalk3.jpg" alt="internatinal talk 2">
+            </div>
           </li>
-           <li>
+          <li>
             <div class=works-item><img src="./img/works/graphics/pick-NishiAizu_final.png" alt="ひとくち西会津"></div>
           </li>
           <!-- <div class=works-item> <img src="./img/works/UI/scan_IDCard.jpg" alt="..."></div>
