@@ -10,7 +10,7 @@ window.onload = function () {
 		// ※load_0に対応するのはall_link[0](←配列の1番目。配列は0から始まります) 
 		var all_link = new Array(), links = $('.link_list').find('li');
 		for (var i = 0; i < links.length; i++) {
-			all_link[i] = '171115_' + i + '.html';
+			all_link[i] = '17_' + i + '.html';
 			box_load.append('<li class="load_' + i + '"></li>');
 			$('.load_' + i).load(all_link[i]);
 		}
